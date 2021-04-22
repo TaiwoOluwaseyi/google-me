@@ -1,6 +1,32 @@
 nav {
   display: flex;
   justify-content: space-around;
-  width: 10%;
+  width: 20%;
   margin-left: auto;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav img {
+  height: 20px;
+}
+main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid gray;
+}
+.btn {
+    margin-top: 2em;
+}
+.btn button {
+    padding: 1em;
+    border: none;
 }
