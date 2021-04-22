@@ -1,20 +1,29 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
 nav {
   display: flex;
   justify-content: space-around;
   width: 20%;
   margin-left: auto;
+  padding: 2em;
 }
 
-nav a {
+a {
   color: black;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 nav img {
   height: 20px;
 }
 main {
   width: 50%;
-  margin: auto;
+  margin: 6.9em auto;
   text-align: center;
 }
 input {
@@ -24,9 +33,28 @@ input {
   border: 1px solid gray;
 }
 .btn {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 .btn button {
-    padding: 1em;
-    border: none;
+  padding: 1em;
+  border: none;
+}
+
+footer {
+  background-color: rgb(228, 225, 225);
+}
+.footer_top {
+  padding: 1em;
+}
+.footer_bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+.left a {
+  margin-right: 1em;
+}
+.right a {
+  margin-right: 1em;
 }
