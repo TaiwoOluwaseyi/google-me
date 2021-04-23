@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+*{
+  box-sizing: border-box;
+}
+
 body,
 p {
   margin: 0;
   padding: 0;
+  font-family: 'Original Surfer', cursive;
 }
 nav {
   display: flex;
@@ -17,14 +23,18 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 nav img {
   height: 20px;
 }
 main {
   width: 50%;
-  margin: 6.9em auto;
+  margin: 4em auto;
   text-align: center;
+}
+.google{
+  width: 75%;
 }
 input {
   width: 80%;
@@ -42,6 +52,9 @@ input {
 
 footer {
   background-color: rgb(228, 225, 225);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 .footer_top {
   padding: 1em;
