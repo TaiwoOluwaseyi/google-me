@@ -3,49 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta 
+    name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no""
+    />
     <title>Google task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-      <header>
-          <nav>
-              <a href="#">Gmail</a>
-              <a href="#">Images</a>
-              <img src="./9 dots.jfif" alt="googledot" />
-          </nav>
-      </header>
+    <header>
+      <nav>
+    <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="./9 dots.jfif" alt="googledot" />
+      </nav>
+    </header>
 
-      <main>
-          <img class="google" src="./google.png" alt="googleicon" />
-          <input type="text" />
-          <div class="btn">
-              <button>Google Search</button>
-              <button>I'm feeling Funky.</button>
-          </div>
-      </main>
+    <main class="main-section">
+      <img class="google" src="./google.png" alt="googleicon" />
+      <input type="text"  class="search-input "/>
+      <div class="search-button-section">
+        <button class="btn">Google Search</button>
+        <button class="btn">I'm feeling Funky.</button>
+      </div>
+    </main>
 
-      <footer>
-          <div class="footer_top">
-           <p>Nigeria</p>
-          </div>
+    <footer>
+      <div class="footer_top">
+        <p>Nigeria</p>
+      </div>
 
-          <div class="footer_bottom">
-          <div class="left">
-              <a>About</a>
-              <a>Advertisement</a>
-              <a>Business</a>
-              <a>How Search Works</a>
-          </div>
+      <div class="footer_bottom">
+        <div class="left">
+          <a>About</a>
+          <a>Advertisement</a>
+          <a>Business</a>
+          <a class="try">How Search Works</a>
+        </div>
 
-          <a>carbon Neutral Since 2007</a>
+        <a class="try">carbon Neutral Since 2007</a>
 
-          <div class="right">
-              <a>Privacy</a>
-              <a>Terms</a>
-              <a>Settings</a>
-          </div>
-          </div>
-      </footer>
+        <div class="right">
+          <a>Privacy</a>
+          <a>Terms</a>
+          <a>Settings</a>
+        </div>
+      </div>
+    </footer>
+    <!-- <script>
+        let elem = document.getElementById("hamburger");
+      let dropDownElement = document.getElementById("dropdown");
+
+      elem.addEventListener("click", function () {
+        dropDownElement.classList.toggle("active");
+      });
+    </script> -->
   </body>
 </html>
